@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.example.ae_inventory_profiles.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RepoSortMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
